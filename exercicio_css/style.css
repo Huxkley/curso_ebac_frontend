@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    
+    
+}
+
+.menu{
+    background-color: black;
+}
+
+.branco {
+    color: white;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+
+}
+
+.articles article {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+.economia {
+    color: green;
+    margin-top: 20px;
+}
+
+.entretenimento {
+    color:deeppink
+}
+
+.tecnologia {
+    color: rgb(10, 174, 224);
+}
+
+.esporte {
+    color: darkcyan;
+    margin-top: 30px;
+}
